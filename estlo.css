@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Satisfy&display=swap');
+
+body{
+    
+    text-align:justify;
+    background-image:url(imagem/meufundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+    header{
+    border:dotted 3px black;
+    background-color :white rgba(11, 11, 69, 0.542);
+    width:1400px; ;
+    width:1400px;
+    
+    }
+    nav{
+       background-color: rgb(231, 223, 223); 
+       width: 1000px;
+       height: 60px;
+       margin:auto;
+       text-align: center;
+    }
+    section{
+      background-color:rgb(154, 154, 235);
+      text-align:center;
+      border: 2px solid black;
+      margin-bottom: 3px;
+      padding:10px;
+      width: 1000px;
+     margin:auto;
+    }
+    main{
+ border:solid 3px white;
+    background-image:linear-gradient(to right,rgba(69, 69, 144, 0.641),rgba(11, 11, 69, 0.542));
+    width:1400px;
+    margin:auto;
+    padding:10px;
+    text-align:center;
+    }
+    td,th{
+      
+      border:2px inset black;
+  }
+  table{
+      width:500px;
+      height:500px;
+      border-collapse: collapse;
+      padding: 3px;
+      text-align:center;
+      margin:auto;
+
+  }
+  h1{
+   font-family: 'Fascinate', cursive;
+   color: white;
+  }
+  p{
+    font-size: 20px;
+  }
+  nav>a {
+    margin-right:50px;
+  }
